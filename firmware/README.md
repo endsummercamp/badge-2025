@@ -6,3 +6,10 @@ The badge USB is physically unstable because of very tight tolerances in the por
 Please notice the points used to flash the badge in the picture above. You will need some thin-tip probes.
 
 The .bin file is all you need. It's a 1:1 dump of the internal memory, containing WLED and all its settings. Feel free to flash it and then recompile a fresh new version.
+
+
+## How to flash
+
+```
+esptool.py --port=/dev/ttyUSB0 write-flash 0x0 backup.bin
+```
