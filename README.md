@@ -16,3 +16,65 @@ Special thanks to [Kezi](https://github.com/Kezii), [Kowalski](https://github.co
        width="600">
   Your browser does not support the video tag.
 </video>
+
+
+
+# Badge Instructions
+
+## Assembly
+
+* The badge must be folded into position.
+* To keep it fixed, we recommend using **UV glue**, **superglue**, or **thin double-sided tape**.
+* **Do not solder directly** onto the PET substrate — this is very challenging, even with bismuth low-temperature solder.
+
+### USB-C Connector
+
+* The USB-C must also be folded.
+* Align the tab with the solid line located after the resistors.
+* With the **copper contacts facing outward**, insert the connector into a male USB Type-C cable.
+![photo_2025-09-19_21-49-55](https://github.com/user-attachments/assets/9454eea4-f0d2-480c-87d8-d513d1e05e67)
+
+---
+
+## Firmware
+
+* The badge ships with the **WLED firmware** by default.
+* To connect:
+
+  1. Connect to the Wi-Fi network:
+
+     ```text
+     SSID: wled-ap  
+     Password: wled1234
+     ```
+  2. Open the address in your browser:
+
+     ```text
+     4.3.2.1
+     ```
+
+---
+
+## Charging and USB Notes
+
+* **USB communication is not supported** — the port is for charging only.
+* There are no LEDs to indicate charging progress.
+* An **interrupt pin** connected to the charger will change state during charging.
+* Firmware updates can be done via **WLED OTA** or the **Serial pads**.
+
+---
+
+## Pinout
+
+```text
+Charger status:       GPIO 10
+Battery voltage:      Analog GPIO 3 (divider only enabled when LED MOSFET is ON)
+LEDs MOSFET:          GPIO 4
+LED data:             GPIO 8
+I²C SDA:              GPIO 7
+I²C SCL:              GPIO 6
+Touch button 1:       GPIO 0
+Touch button 2:       GPIO 1
+```
+
+---
