@@ -17,7 +17,7 @@ Special thanks to [Kezi](https://github.com/Kezii), [Kowalski](https://github.co
   Your browser does not support the video tag.
 </video>
 
-
+---
 
 # Badge Instructions
 
@@ -26,6 +26,13 @@ Special thanks to [Kezi](https://github.com/Kezii), [Kowalski](https://github.co
 * The badge must be folded into position.
 * To keep it fixed, we recommend using **UV glue**, **superglue**, or **thin double-sided tape**.
 * **Do not solder directly** onto the PET substrate — this is very challenging, even with bismuth low-temperature solder.
+
+## Flashing
+**USB communication is not supported** — the port is for charging only.
+To flash the badge the first time, make use of the UART and the power pins as below.
+<img width="1218" height="875" alt="image" src="https://github.com/user-attachments/assets/7f707868-9cc5-4d37-8273-82cef5252e65" />
+
+![IMG_20250902_101329](https://github.com/user-attachments/assets/165c65da-b0e7-44ce-9ee8-5df67cab85ef)
 
 ### USB-C Connector
 
@@ -36,9 +43,16 @@ Special thanks to [Kezi](https://github.com/Kezii), [Kowalski](https://github.co
 
 ---
 
+## Charging
+* There are no LEDs to indicate charging progress. The charger is however guaranteed to fully charge the battery in 2.5h. The battery is fully protected and the charger has multiple overcurrent, overvoltage and temperature protections. It can trickle-charge.
+* An **interrupt pin** connected to the charger will change state during charging. You will have to implement it yourself.
+
+---
+
 ## Firmware
 
 * The badge ships with the **WLED firmware** by default.
+* * Firmware updates can be done via **WLED OTA** or the **Serial pads**.
 * To connect:
 
   1. Connect to the Wi-Fi network:
@@ -55,14 +69,6 @@ Special thanks to [Kezi](https://github.com/Kezii), [Kowalski](https://github.co
 
 ---
 
-## Charging and USB Notes
-
-* **USB communication is not supported** — the port is for charging only.
-* There are no LEDs to indicate charging progress.
-* An **interrupt pin** connected to the charger will change state during charging.
-* Firmware updates can be done via **WLED OTA** or the **Serial pads**.
-
----
 
 ## Pinout
 
