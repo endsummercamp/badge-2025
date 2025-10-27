@@ -9,7 +9,7 @@ The .bin file is all you need. It's a 1:1 dump of the internal memory, containin
 
 
 ## How to flash the first time
-
+Go into the legacy directory, download the bin, then using esptool:
 ```
 esptool.py --port=/dev/ttyUSB0 write-flash 0x0 backup.bin
 ```
