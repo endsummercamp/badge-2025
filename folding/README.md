@@ -1,7 +1,3 @@
-Here is your content formatted as a clear and professional `README.md` in Markdown style:
-
----
-
 # Folding Instructions for the BadgESC{21} Badge
 
 These are the instructions for folding the **BadgESC{21} Badge** into its final cube shape.
