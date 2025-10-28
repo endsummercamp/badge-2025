@@ -40,7 +40,7 @@ Once connected to the device, find its IP address and navigate there.
 
 After rebooting:
 
-1. Reconnect to the AP (`BadgESC{21}`).
+1. Reconnect to the Access Point `WLED-AP`.
 2. 🔗 **[http://badgesc.local](http://badgesc.local)**
 3. Navigate again to **Config → Wi-Fi Setup**.
 4. Enter your local Wi-Fi network credentials to connect the badge to your home network.
