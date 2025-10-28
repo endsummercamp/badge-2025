@@ -20,9 +20,8 @@ Connect to it using the following information:
 
 ## 2. Upload Configuration
 
-Once connected to the device, open your browser and navigate to:
+Once connected to the device, find its IP address and navigate there.
 
-🔗 **[http://badgesc.local](http://badgesc.local)**
 
 1. At the top of the page, click **Config** → **Security & Updates**.
 2. Scroll down until you reach **Backup & Restore** and **Restore presets**.
@@ -41,6 +40,7 @@ Once connected to the device, open your browser and navigate to:
 
 After rebooting:
 
-1. Reconnect to the AP (`WLED-AP`).
-2. Navigate again to **Config → Wi-Fi Setup**.
-3. Enter your local Wi-Fi network credentials to connect the badge to your home network.
+1. Reconnect to the AP (`BadgESC{21}`).
+2. 🔗 **[http://badgesc.local](http://badgesc.local)**
+3. Navigate again to **Config → Wi-Fi Setup**.
+4. Enter your local Wi-Fi network credentials to connect the badge to your home network.
