@@ -8,7 +8,7 @@ The badge has been designed by [Jacopo Franco](https://www.jacopofranco.com/), t
 
 Special thanks to [Kezi](https://github.com/Kezii), [Kowalski](https://github.com/kowalski7cc), [K3lite](https://github.com/k3lite) & [Baobots](https://github.com/baobots) for the efforts spent into debugging & flashing all of them during the camp.
 
-And for going the extra mile and designing a custom case that solves many assembly issues, a very felt thanks to [k0bld]([https://github.com/k3lite](https://github.com/k0bld)).
+And for going the extra mile and designing a custom case that solves many assembly issues, a very felt thanks to [k0bld](https://github.com/k0bld).
 
 <video src="https://github.com/user-attachments/assets/acb0492f-e134-4207-b74a-9145ce9de10b"
        autoplay
