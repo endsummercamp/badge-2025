@@ -45,6 +45,7 @@ To flash the badge the first time, make use of the UART and the power pins as be
 
 ## Charging
 * There are no LEDs to indicate charging progress. The charger is however guaranteed to fully charge the battery in 2.5h. The battery is fully protected and the charger has multiple overcurrent, overvoltage and temperature protections. It can trickle-charge.
+* Battery life is approximately 4h with the "All sides music" profile and the WiFi radio at 8.5dBm.
 * An **interrupt pin** connected to the charger will change state during charging. You will have to implement it yourself.
 
 ---
